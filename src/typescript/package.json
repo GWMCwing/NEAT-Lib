@@ -1,0 +1,29 @@
+{
+  "name": "neat-lib",
+  "version": "1.0.0",
+  "description": "NEAT implementation for different languages",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile": "rm -rf ../../../../dist/lib && tsc --build tsconfig.commonjs.json && tsc --build tsconfig.es6.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GWMCwing/NEAT-Lib.git"
+  },
+  "keywords": [
+    "NEAT"
+  ],
+  "author": "GW_MC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GWMCwing/NEAT-Lib/issues"
+  },
+  "homepage": "https://github.com/GWMCwing/NEAT-Lib#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
